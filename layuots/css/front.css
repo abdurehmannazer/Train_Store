@@ -1,0 +1,53 @@
+
+form {
+    max-width: 300px;
+    margin: auto ;
+    background-color: rgb(48, 48, 48);
+    color: rgb(230, 230, 230) ;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+form .mb-3 {
+    position: relative;
+}
+.astrics {
+    color: rgb(169, 2, 2);
+    position: absolute;
+    top: 33.5px;
+    right: 6px;
+    font-size: 25px;
+}
+
+.container  .text-center .Login,
+.container .text-center  .Signup {
+    cursor: pointer;
+}
+.container  .text-center .active {
+    color:#1c64cf ;
+}
+.singup_form {
+    display: none;
+}
+.logPage form button {
+    width: 100%;
+    font-weight: bold;
+}
+.login_form a {
+    color: aliceblue;
+}
+.login_form a:hover {
+    text-decoration: underline;
+}
+
+
+/* model  */
+.login_model .modal-body form {
+        width: 100%;
+        max-width: 480px ;
+}
+
+.login_model .modal-body form .btn-close {
+    color: #1c64cf;
+    background-color: white;
+}

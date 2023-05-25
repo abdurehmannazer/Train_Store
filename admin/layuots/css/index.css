@@ -1,0 +1,215 @@
+body {
+    font-size: 16px;
+    background-color: #ececec;
+}
+*{
+}
+
+h1 {
+    font-size: 40px;
+    margin: 28px 0 ;
+    color: #5a5a5a;
+    font-weight: bold;
+    display: block;
+}
+a {
+    text-decoration: none;
+}
+
+.login {
+    width: 300px;
+    margin: 100px auto;
+}
+
+.login input {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.login .form-control {
+    background-color: #e5e5e5;
+}
+
+.login h4 {
+    text-align: center;
+}
+
+.navbar {
+    background-color: rgb(21, 21, 21) !important;
+    color: white !important;
+}
+.nav-item a , .navbar-brand{
+    color: rgb(205, 205, 205) !important;
+}
+.nav-item > a:hover,
+.navbar-brand:hover {
+    color: white !important;
+}
+.dropdown-menu a {
+    color: black !important;
+}
+.nav-item.dropdown {
+    list-style: none;
+}
+
+
+.col-sm-10.col-md-4,
+.col-sm-9.col-md-4
+{
+    position: relative;
+}
+
+.astrics {
+    color: rgb(169, 2, 2);
+    position: absolute;
+    top: 2.5px;
+    right: 20px;
+    font-size: 25px;
+}
+
+input {
+    padding-right: 30px;
+}
+.navbar-toggler-icon {
+    color: white;
+}
+
+.table > tbody {
+    vertical-align: middle !important;
+}
+
+.latest .btn.btn-sm {
+    border:  0.5px solid transparent;
+}
+.latest .btn.btn-sm {
+    opacity: 0.7;
+    transition: 0.2s;
+}
+.latest .btn.btn-sm:hover {
+    opacity: 1;    
+
+}
+.fa-solid.fa-user-tie {
+    position: relative;
+    top: 4px;
+    width: auto;
+    
+}
+
+.table-responsive {
+box-shadow: 5px 5px 30px #8c8c8c !important;
+}
+.navbar-toggler-icon {
+    color: #e5e5e5 !important;
+}
+
+
+/* dashboard */
+.home-stats .stat {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    font-size: 15px;
+
+}
+
+.latest {
+    margin-top: 40px;
+}
+.stat span {
+    font-size: 50px;
+    display: block;
+}
+.stat a {
+    color: white;
+    transition: .2s;
+}
+.stat a:hover {    
+    color: rgb(233, 233, 233);
+}
+
+.list-group-item b.text-dark{
+    position: relative;
+    top: -5px;
+    left: 5px;
+}
+.list-group-item {
+    transition: .2s;
+    vertical-align: middle;
+}
+.list-group-item:hover {
+    background-color: #eeeeeecb
+}
+
+.catlist   i {
+    width: 35px;
+    background-color: #7f8c8d;
+}
+.category li {
+position: relative;
+overflow: hidden;
+}
+.category li:hover .butt  {
+    right: 0;
+}
+.butt {
+    position: absolute;
+    top: 0;
+    right: -70px;
+    height: 100%;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+    transition: 0.3s;
+}
+.butt  a:first-child i {
+    background-color: green;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 8px;
+    opacity: .8;
+    font-size: 14px
+}
+.butt  a:last-child i {
+    color: white;
+    background-color: red;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 8px;
+    opacity: .7;
+    font-size: 14px
+}
+.butt a i:hover {
+    opacity: 1;
+    
+    
+}
+.sort {
+    position: relative;
+    left: 0;
+}
+.category .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.full-view {
+    transition: 1s;
+}
+
+.fa-plus ,.fa-minus {
+    cursor: pointer;
+    opacity: 0.7;
+    font-size: 20px;
+}
+.fa-plus:hover,
+.fa-minus:hover {
+    opacity: 1;
+}
